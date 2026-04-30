@@ -21,7 +21,7 @@ drvAsynIPPortConfigure("DHSTB001", "192.168.190.51:4002 TCP")
 
 
 epicsEnvSet("STREAM_PROTOCOL_PATH", "$(TOP)/db")
-dbLoadRecords("db/hallprobe.db", "P=readHall:,R=DHSTB001:,PORT=DHSTB001")
+dbLoadRecords("db/hallprobe.db", "P=readHall,R=DHSTB001,PORT=DHSTB001")
 
 
 cd "${TOP}/iocBoot/${IOC}"

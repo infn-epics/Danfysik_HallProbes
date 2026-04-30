@@ -30,7 +30,7 @@
 #MYMODULE = $(MODULES)/my-module
 
 ASYN = /epics/support/asyn
-STREAM = /epics/support/StreamDevice
+STREAMDEVICE = /epics/support/StreamDevice
 
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ = $(MODULES)/seq-ver
