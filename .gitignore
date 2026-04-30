@@ -1,0 +1,45 @@
+# =========================
+# EPICS build output
+# =========================
+O.*/
+bin/
+lib/
+include/
+dbd/
+html/
+templates/
+
+# =========================
+# DB: ignora everything except .db and .proto
+# =========================
+db/*
+!db/*.db
+!db/*.proto
+
+# =========================
+# Local Config  
+# =========================
+configure/*.local
+
+# =========================
+# iocBoot generated files
+# =========================
+iocBoot/*ioc*/cdCommands
+iocBoot/*ioc*/dllPath.bat
+iocBoot/*ioc*/envPaths
+iocBoot/*ioc*/relPaths.sh
+
+# =========================
+# Editor / system
+# =========================
+.vscode/
+*.orig
+*.log
+*.swp
+.DS_Store
+
+# =========================
+# other tool
+# =========================
+QtC-*
+.iocsh_history

@@ -1,0 +1,8 @@
+Terminator = LF;
+ReplyTimeout = 2000;
+ReadTimeout = 1000;
+
+readField {
+    ExtraInput = Ignore;
+    in "%f";
+}
