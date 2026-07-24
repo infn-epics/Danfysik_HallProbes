@@ -4,5 +4,5 @@ ReadTimeout = 1000;
 
 readField {
     ExtraInput = Ignore;
-    in "%f";
+    in "%*/[^-0-9]*/%f";
 }

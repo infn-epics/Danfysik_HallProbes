@@ -1,9 +1,0 @@
-record(ai, "$(P)$(R)field")
-{
-    field(DESC, "Hall probe field")
-    field(DTYP, "stream")
-    field(INP,  "@hallprobe.proto readField $(PORT)")
-    field(SCAN, "1 second")
-    field(EGU,  "Gauss")
-    field(PREC, "6")
-}
